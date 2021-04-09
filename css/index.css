@@ -1,0 +1,63 @@
+h1 {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 32px;
+}
+h2 {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 24px;
+}
+p {
+    font-family: 'Manrope', sans-serif; 
+    font-size: 18px;
+    padding: 20px;
+}
+.project1 {
+    background-image: url(../Images/projectimage1.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    height: calc(100vh - 100px);
+    align-items: center;
+  }
+  .container {
+      width: 1375px;
+      padding:40px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background-image: linear-gradient(to bottom, #e3e3e9 40%, #ffffff 100%);
+      border-radius: 50px;
+  }
+  .gap {
+    padding: 25px;
+}
+.card-img-top {
+    padding: 2%;
+}
+.card {
+    border-radius: 50px;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: solid 1px black;
+    outline: none; /* Remove outline */
+    background-color: #ffffff ; /* Set a background color */
+    color:black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    font-weight: bold;
+    background-color: #e3e3e9;
+    box-shadow: 10px 10px 10px rgb(155, 155, 155);
+  }
