@@ -11,27 +11,40 @@
 <script src="js/index.js"></script>
 </head>
 <body>
+    <div class="returnButton">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        </div>
 <!-- Navigation bar -->
+<nav class="navbar">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" height="80" class="d-inline-block align-top" alt="">
+  </a>
 <ul class="nav justify-content-end">
     <li class="nav-item">
-      <a class="nav-link active" href="#sectionChallenge">Challenge & Solution</a>
+      <a class="nav-link active text-dark" href="#sectionChallenge">Challenge & Solution</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#seactionResearch" role="button" aria-haspopup="true" aria-expanded="false">User Research</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item text-dark" href="#sectionUserpersona">User Persona</a>
+          <a class="dropdown-item text-dark" href="#sectionStoryboard">Storyboarding</a>
+          <a class="dropdown-item text-dark" href="#sectionIwish">I Like, I Wish & What If</a>
+        </div>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#sectionResearch">User Research</a>
+      <a class="nav-link text-dark" href="#sectionIdeation">Ideation</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#sectionIdeation">Ideation</a>
+      <a class="nav-link text-dark" href="#sectionTesting">Usability Testing</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#sectionUsability">Usability Testing</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#sectionPrototype">Prototype</a>
+        <a class="nav-link text-dark" href="#sectionProtype">Prototype</a>
       </li>
     <li class="nav-item">
-        <a class="nav-link" href="#extras" tabindex="-1" aria-disabled="true">Extras</a>
+        <a class="nav-link text-dark" href="#extras" tabindex="-1" aria-disabled="true">Extras</a>
       </li>
   </ul>
+  </nav>
 <!-- Jumbotron -->
     <div class="jumbotron project1">
     </div>
@@ -66,13 +79,13 @@
             <h2>My Roles & Responsibilities</h2>
             <li>Interviews</li>
             <li>Proto Persona
-            <li>Storyboa</li>
+            <li>Storyboarding</li>
             <li>Wireframing</li>
             <li>Prototyping</li>
             <li>User Testing</li>
           </div>
         </div>
-        <div class="row">
+        <div class="row mb-5">
           <div class="col">
             <br>
           </div>
@@ -80,10 +93,9 @@
           </div> 
       </div>
     </section>
-    <section class="gap">
-    </section>
+
 <!-- Section 2 -->
-<section id="sectionResearch">
+<section id="sectionUserpersona">
 <center><h1>User Research: User Persona</h1></center>
 
 <div class="container userPersona">
@@ -105,6 +117,7 @@
 <section class="gap">
 </section>
 <!-- Section 3 -->
+<section id="sectionStoryboard">
 <center><h1>User Research: Story Board</h1></center>
 <section>
     <div class="container storyBoard">
@@ -113,27 +126,110 @@
     <img src="images/Final Storyboard.png" width="100%"></center>
             </div>
           </div>
-            <div class="col">
+            <div class="col mb-5">
                 <br>
                 <p>Analyzing both the quantitative and qualitative data, I was able to form a fundamental understanding of the users' pain points they were facing. I then storyboarded Bernard Price to highlight the discovered pain points and possible solutions.
                 </p>
             </div>
-            <div class="col">
-                <br><center>
-                    <div class="card" style="width: 45rem;">
-                        <img src="images/preStoryboard.png" class="card-img-top" alt="Original Sketch">
-                        <div class="card-body">
-                          <p class="card-text">This is the original sketch for the storyboard outline.</p>
-                        </div>
-                      </div></center>
             </div>
           </div> 
     </div>
     </section>
 </section>
-<div class="returnButton">
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!-- Section 4 -->
+<section id="sectionIwish">
+    <center><h1>User Research: "I Like, I Wish & What If"</h1></center>
+    
+    <div class="container userIwish">
+        <div class="row">
+            <div class="col"><center>
+    <img src="images/ilikeiwish.png" width="100%"></center>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+                <br>
+                <p>In order to find the best solutions for the issues the website was facing, we utilized the “I Like, I Wish and What If” exercise and dot voted the best solutions to move forward.
+
+                </p>
+            </div>
+          </div> 
+      </div>
     </div>
+    </section>
+<!-- Section 5 -->
+<section id="sectionIdeation">
+    <center><h1>Ideation</h1></center>
+    
+    <div class="container ideation">
+        <div class="row">
+            <div class="col"><center>
+    <img src="images/ideation.png" width="100%"></center>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+                <br>
+                <p>Our first prototype was on InVision. This gave us the foundation we needed to visualize the user flow from a mobile website point of view. Then the updated mid fidelity wireframes were created in Figma for user testing. 
+                
+                </p>
+            </div>
+          </div> 
+      </div>
+    </div>
+    </section>
+<!-- Section 6 -->
+<section id="sectionTesting">
+    <center><h1>Usability Testing & Findings</h1></center>
+    
+    <div class="container ideation">
+
+        <div class="card mb-5" style="max-width: 1000px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <center>
+                    <img src="images/chart.jpg" width="400px"></center>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mb-2"></h5>
+                  <p class="card-text"><p>We tested our mid fidelity prototype on five users giving them four tasks to complete. We had a success rate of 89%. This gave us the data to add process improvements on the high fidelity prototype.</p>
+                  <p class="card-text">With the user research and testing, we were able to iterate our design to help solve the problem that online users were facing locating the donation and volunteer areas of the non-profit website. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+<!-- Section 6 -->
+<section id="sectionProtype">
+    <center><h1>Interactive Protype</h1></center>
+    
+    <div class="container ideation">
+        <div class="row">
+            <div class="col"><center>
+    <img src="images/final.png" width="100%"></center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+                <p>Based on the user feedback, we were able to successfully provide a positive user experience from our redesign of the original organization's website.      
+                </p>
+                    <div class="row">
+                      <div class="col">
+                          <center>
+                        <a href="https://www.figma.com/proto/QUxk1lXdODpxbDFZUbUMa8/Mobile?node-id=545%3A4023&viewport=521%2C-273%2C0.12262136489152908&scaling=min-zoom" target="_blank">
+                            <button>Desktop Prototype</button></a></center>
+                      </div>
+                      <div class="col">
+                          <center>
+                        <a href="https://www.figma.com/proto/QUxk1lXdODpxbDFZUbUMa8/Mobile?node-id=166%3A884&viewport=-830%2C1841%2C0.1567361056804657&scaling=scale-down" target="_blank">
+                            <button>Mobile Prototype</button></a></center>
+                      </div>
+            </div>
+          </div> 
+      </div>
+    </div>
+    </section>
 <!-- Footer -->
 <script src="js/index.js"></script>
 </body>
