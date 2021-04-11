@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
 <Title>UX/UI Homework 20</Title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link rel="stylesheet" href="css/index.css" type="text/css">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -16,12 +18,12 @@
         </div>
 <!-- Navigation bar -->
 <nav class="navbar">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="https://gusmartinezjr.github.io/UX_UI_HW_19/" target="blank">
     <img src="images/logo.png" height="80" class="d-inline-block align-top" alt="">
   </a>
 <ul class="nav justify-content-end">
     <li class="nav-item">
-      <a class="nav-link active text-dark" href="#sectionChallenge">Challenge & Solution</a>
+      <a class="nav-link active text-dark" href="#sectionChallenge">Introduction</a>
     </li>
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#seactionResearch" role="button" aria-haspopup="true" aria-expanded="false">User Research</a>
@@ -41,7 +43,7 @@
         <a class="nav-link text-dark" href="#sectionProtype">Prototype</a>
       </li>
     <li class="nav-item">
-        <a class="nav-link text-dark" href="#extras" tabindex="-1" aria-disabled="true">Extras</a>
+        <a class="nav-link text-dark" data-toggle="modal" data-target="#myModal">Extras</a>
       </li>
   </ul>
   </nav>
@@ -60,8 +62,8 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2>The Challenge</h2>
-                <p>The original non-profit website had a very confusing and an overall unorganized website. Both the donation and volunteering did not have a call to action to inform visitors. We felt that as a team we could solve this problems.</p>
+                <h2>Problem Statement</h2>
+                <p>The Voices for Children of SA website is designed to have a user-friendly experience that offers the community a clear understanding of the VoC SA’s mission. We have observed that the website doesn’t headline the goal which is identifying critical child issues to the community leaving them guessing where they can help which is causing a decline in volunteer and donor support. How might we improve the website so that volunteers and donors will help VoC SA achieve its mission of responding to current and emerging needs of children? </p>
             </div>
           </div>
           <div class="row">
@@ -78,8 +80,8 @@
           <div class="col">
             <h2>My Roles & Responsibilities</h2>
             <li>Interviews</li>
-            <li>Proto Persona
-            <li>Storyboarding</li>
+            <li>Proto Persona</li>
+            <li>Storyboarding and Art</li>
             <li>Wireframing</li>
             <li>Prototyping</li>
             <li>User Testing</li>
@@ -130,6 +132,9 @@
                 <br>
                 <p>Analyzing both the quantitative and qualitative data, I was able to form a fundamental understanding of the users' pain points they were facing. I then storyboarded Bernard Price to highlight the discovered pain points and possible solutions.
                 </p>
+                <center>
+                  <button type="button" data-toggle="modal" data-target="#myModal">View Extras</button>
+                </center>
             </div>
             </div>
           </div> 
@@ -202,7 +207,7 @@
     </section>
 <!-- Section 6 -->
 <section id="sectionProtype">
-    <center><h1>Interactive Protype</h1></center>
+    <center><h1>Interactive Prototype</h1></center>
     
     <div class="container ideation">
         <div class="row">
@@ -230,7 +235,75 @@
       </div>
     </div>
     </section>
+<!-- go home -->
+<section class="gap">
+  <center>
+    <a href="https://gusmartinezjr.github.io/UX_UI_HW_19/" target="blank"><img src="images/profile.png" width="150" height="150"></a>
+  </center>
+</section>
+<!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Extras - Sketch to Final Art</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <p>Below are the before sketches and final art used for the Storyboarding. I took feedback based on my original sketches to reflect a more true to life feeling that everyone has felt in their life and could relate to.</p>
+          <img src="images/extra1.JPG" width="400px">
+          <img src="images/extra2.JPG" width="400px">
+          <img src="images/extra3.JPG" width="400px">
+          <img src="images/extra4.JPG" width="400px">
+          <img src="images/extra5.JPG" width="400px">
+          <img src="images/extra6.JPG" width="400px">
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
 <!-- Footer -->
+<section class="footerGap">
+<ul class="nav justify-content-start">
+  <li class="nav-item">
+    <a class="nav-link active text-dark" href="#sectionChallenge">Challenge & Solution</a>
+  </li>
+  <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#seactionResearch" role="button" aria-haspopup="true" aria-expanded="false">User Research</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item text-dark" href="#sectionUserpersona">User Persona</a>
+        <a class="dropdown-item text-dark" href="#sectionStoryboard">Storyboarding</a>
+        <a class="dropdown-item text-dark" href="#sectionIwish">I Like, I Wish & What If</a>
+      </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-dark" href="#sectionIdeation">Ideation</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-dark" href="#sectionTesting">Usability Testing</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link text-dark" href="#sectionProtype">Prototype</a>
+    </li>
+  <li class="nav-item">
+    <a class="nav-link text-dark" data-toggle="modal" data-target="#myModal">Extras</a>
+    </li>
+</ul>
+</nav>
+</section>
+<!-- Footer End-->
 <script src="js/index.js"></script>
 </body>
 </html>
