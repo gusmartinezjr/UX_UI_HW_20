@@ -13,15 +13,9 @@ p {
     font-size: 18px;
     padding: 20px;
 }   
-.project1 {
-    background-image: url(../images/projectimage1.png);
-    background-size: cover;
-    width: 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    height: calc(100vh - 100px);
-    align-items: center;
-  }
+img.round-corners {
+    border-radius: 50px;
+}
   .container {
       width: 1375px;
       padding:40px;
@@ -114,17 +108,7 @@ footer {
     margin-right: 15px;
     color: black;
 }
-a p:hover{
-        color:black;
-        text-decoration: underline;    
-}
-.nav li.active::after{
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    right: 0;
+.responsive {
     width: 100%;
-    content: " ";
-    color: #F4C127;
-    border-bottom: 5px solid #F4C127;
+    height: auto;
   }
